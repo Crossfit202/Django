@@ -19,14 +19,14 @@
     />
     <link rel="stylesheet" href="{% static 'listing/main.css' %}">
     {% if title %}
-    <title>Django Blog - {{ title }}</title>
+    <title>Book Listing - {{ title }}</title>
     {% else %}
-    <title>Django Blog</title>
+    <title>Book Listing</title>
     {% endif %}
   </head>
-  <body>
+  <body style="background-color: rgb(204, 226, 204);">
     <header class="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
         <div class="container">
           <a class="navbar-brand mr-4" href="{% url 'listing-home' %}">BookListing</a>
           <button
@@ -74,13 +74,12 @@
         </div>
         <div class="col-md-4">
           <div class="content-section">
-            <h3>Our Sidebar</h3>
-            <p class='text-muted'>You can put any information here you'd like.
+            <h3>Additional Links</h3>
+            <p class='text-muted'>Try these other helpful features
               <ul class="list-group">
-                <li class="list-group-item list-group-item-light">Latest Posts</li>
-                <li class="list-group-item list-group-item-light">Announcements</li>
-                <li class="list-group-item list-group-item-light">Calendars</li>
-                <li class="list-group-item list-group-item-light">etc</li>
+                <li class="list-group-item list-group-item-light"><a href="#">Search for Books</a></li>
+                <li class="list-group-item list-group-item-light"><a href="#">Latest Posts</a></li>
+                <li class="list-group-item list-group-item-light"><a href="#">Request a Book</a></li>
               </ul>
             </p>
           </div>

@@ -10,8 +10,10 @@
         >{{ post.title }}</a
       >
     </h2>
-    <p class="article-content">{{ post.edition }}</p>
-    <p class="article-content">{{ post.book_author }}</p>
+    <p class="article-edition">{{ post.edition }}</p>
+    <p class="article-book_author">{{ post.book_author }}</p>
+    <p class="article-book_author">{{ post.course }}</p>
+    <p class="article-price">${{ post.price }}</p>
   </div>
 </article>
 {% endfor %} {% endblock content %}
