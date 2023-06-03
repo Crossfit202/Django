@@ -6,9 +6,7 @@ To open up the test server for the django framework, you create the project by r
 
 My purpose for creating this software is to learn how the Django framework works. This is my first project using the framework and I wanted to create a website where I could learn to work with loggin in, logging out, and getting information from databases.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/RdNhTAJdP68)
 
 # Web Pages
 
@@ -33,8 +31,6 @@ The web pages that I learned to create in this project are:
 - profile.html: This page shows the information about the user that is logged in. It only contains the username and email right now.
 
 - register.html: This generates the fiels necessary to make an account and stores the account for future login.
-
-{Describe each of the web pages you created and how the web app transitions between each of them. Also describe what is dynamically created on each page.}
 
 # Development Environment
 
